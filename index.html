@@ -1,112 +1,173 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Ubuntu:400,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <title>La Gazette Tulliste</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+
+  <title>La Gazette Tulliste | L'info prés de chez vous</title>
 </head>
-
 <body>
+  <nav id="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="NewsMedia" class="logo">
+      <div class = 'social'>
+        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <ul>
+        <li><a href="index.html" class="current">Acceuil</a></li>
+        <li><a href="about.html" >A propos</a></li>
+        <li><a href="contact.html" >Contacter</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <!-- START NEWS SECTION -->
-    <section class="navbar">
-
-        <nav>
-            <div></div>
-            <ul>
-                <a href="#">
-                    <li data-xcoord="0px">Acceuil</li>
-                </a>
-                <a href="pages/a-propos.html">
-                    <li data-xcoord="160px">A Propos</li>
-                </a>
-                <a href="pages/contacter.html">
-                    <li data-xcoord="320px">Contacter</li>
-                </a>
-                <a href="pages/donner.html">
-                    <li data-xcoord="480px">Donner</li>
-                </a>
-            </ul>
-        </nav>
-
-    </section>
-
-
-    <section class="section-news">
-        <div class="container">
-            <img class="img-header" src="img/logo.jpg" height="100px" width="100px">
-            <div class="header-section">
-                <h3 class="small-title"><span></span>L'info près de chez vous</h3>
-                <h2 class="title">La Gazette Tulliste</h2>
-            </div>
-            <div class="row">
-                <!-- start single news -->
-                <div class="col-12 col-md-6">
-                    <div class="single-news">
-                        <a href="#"><img src="https://i.ibb.co/XbnqL9N/post1.jpg" alt=""></a>
-                        <div class="content">
-                            <span class="date">30 NOVEMBRE 2019</span>
-                            <h3 class="title"><a href="#">Lorem Ipsum is simply dummy text of the printing</a></h3>
-                            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <span class="author">Par Romain (Propriétaire du journal)</span>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-                <!-- / end single news -->
-                <!-- start single news -->
-                <div class="col-12 col-md-6">
-                    <div class="single-news">
-                        <a href="#"><img src="https://i.ibb.co/XbnqL9N/post1.jpg" alt=""></a>
-                        <div class="content">
-                            <span class="date">30 NOVEMBRE 2019</span>
-                            <h3 class="title"><a href="#">Lorem Ipsum is simply dummy text of the printing</a></h3>
-                            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <span class="author">Par Romain (Propriétaire du journal)</span>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-                <!-- / end single news -->
-                <!-- start single news -->
-                <div class="col-12 col-md-6">
-                    <div class="single-news">
-                        <a href="#"><img src="https://i.ibb.co/XbnqL9N/post1.jpg" alt=""></a>
-                        <div class="content">
-                            <span class="date">30 NOVEMBRE 2019</span>
-                            <h3 class="title"><a href="#">Lorem Ipsum is simply dummy text of the printing</a></h3>
-                            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <span class="author">Par Romain (Propriétaire du journal)</span>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-                <!-- / end single news -->
-                <!-- start single news -->
-                <div class="col-12 col-md-6">
-                    <div class="single-news">
-                        <a href="#"><img src="https://i.ibb.co/XbnqL9N/post1.jpg" alt=""></a>
-                        <div class="content">
-                            <span class="date">30 NOVEMBRE 2019</span>
-                            <h3 class="title"><a href="#">Lorem Ipsum is simply dummy text of the printing</a></h3>
-                            <p class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                            <span class="author">Par Romain (Propriétaire du journal)</span>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-                <!-- / end single news -->
-            </div>
+  <header id = 'showcase'>
+    <div class="container">
+      <div class="showcase-container">
+        <div class="showcase-content">
+          <div class="category category-a-la-1">
+            à la une
+          </div>
+          <div class="category category-sports">
+            Sport
+          </div>
+          <h1> Article de cette semaine</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deserunt, at laborum accusamus veniam reprehenderit deleniti reiciendis vel animi ipsum obcaecati ex nesciunt ipsa, voluptatibus provident, quas doloribus molestias. Saepe.</p>
+          <a href="article.html" class="btn btn-primary">Lire l'article</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </header>
 
-    <!-- / END NEWS SECTION -->
+  <section id="home-articles" class="py-2">
+    <div class="container">
+      <h2>Articles Précédants</h2>
+      <div class="articles-container">
+        <article class="card">
+          <img src="img/articles/ent1.jpg" alt="photo">
+          <div>
+            <div class="category category-ent">
+              Divertissement
+            </div>
+            <h3>
+              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
+          </div>
+        </article>
+
+        <article class="card bg-dark">     
+          <div class="category category-sports">
+            Sport
+          </div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
+        </article>
+        
+        <article class="card">     
+          <img src="img/articles/tech1.jpg" alt="photo">
+          <div class="category category-tech">
+            Technologie
+          </div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+        </article>
+        
+        <article class="card">     
+          <div class="category category-sports">
+            Sport
+          </div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+          <img src="img/articles/sports1.jpg" alt="photo">
+        </article>
+
+        <article class="card">     
+          <img src="img/articles/tech2.jpg" alt="photo">
+          <div class="category category-politic">
+            Politique
+          </div>
+          <h3>
+            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+          </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
+          </article>
+
+          <article class="card bg-primary">     
+            <div class="category category-sports">
+              Sport
+            </div>
+            <h3>
+              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
+          </article>
+
+          <article class="card">
+            <div>
+              <div class="category category-actualite">
+                Actualitées
+              </div>
+              <h3>
+                <a href="article.html">Lorem ipsum dolor sit amet.</a>
+              </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
+            </div>
+            <img src="img/articles/ent2.jpg" alt="photo">
+          </article>
+      </div>
+    </div>
+  </section>
+  
+  <footer id = 'main-footer' class = 'py-2'>
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo-gray-background.png" alt="logo">
+        <p>Bienvenue sur LaGazetteTulliste le magazine gratuit de votre ville.</p>
+      </div>
+      <div>
+        <h3>Email Actualitées</h3>
+        <p>Email Actualitées est une inscription <b>gratuite</b> qui permet de recevoir les actualitées par mail.<br><br><b>Vous pouvez vous désinscrire a tout moment</b></p>
+        <form>
+          <input type="email" placeholder="Votre Adresse Email" required>
+          <input type="submit" value="S'inscrire" class = 'btn btn-primary'>
+        </form>
+      </div>
+      <div>
+        <h3>Liens</h3>
+        <ul class = 'list'>
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="#">A Propos</a></li>
+          <li><a href="#">Contacter</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Faire Un Don</h2>
+        <p>Chaque semaine une association au hasard est sélectionner, cette semaine faite un don à : <b>Medecins de monde</b>.</p>
+        <a href="#" class="btn btn-secondary">Faire un don</a>
+      </div>
+      <div>
+        <p>
+          Copyright LaGazetteTulliste &copy; 2022, Touts Droits Réservés. 
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
-
-<script type="text/javascript">
-</script>
