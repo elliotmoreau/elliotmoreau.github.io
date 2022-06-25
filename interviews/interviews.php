@@ -11,7 +11,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
 
-  <title>La Gazette Tulliste | A propos</title>
+  <title>La Gazette Tulliste | Article</title>
 </head>
 <body>
   <nav id="main-nav">
@@ -24,25 +24,38 @@
         <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
       </div>
       <ul>
-        <li><a href="index.html" >Acceuil</a></li>
-        <li><a href="about.html" class="current">A propos</a></li>
-        <li><a href="contact.html" >Contacter</a></li>
+        <li><a href="index.php" >Acceuil</a></li>
+        <li><a href="about.php" >A propos</a></li>
+        <li><a href="contact.php" >Contacter</a></li>
       </ul>
     </div>
   </nav>
 
-  <section id="about">
+  <section id="article">
     <div class="container">
       <div class="page-container">
         <article class="card">
-          <h1 class='l-heading'>A Propos de nous</h1>
-          <p>Nous sommes des collégiens qui avons décidé de lancer un journal gratuit, sans pub ni abonnement et accessible pour tout le monde.</p>
-          <p></p>
+          <img src="img/articles/ent1.jpg" alt="article">
+          <h1 class='l-heading'>Lorem ipsum dolor sit amet.</h1>
+          <div class="meta">
+            <small>
+              <i class="fas fa-user"></i> Ecrit par Romain Gorse. Poster le 11/06/2022
+            </small>
+            <div class="category category-ent">Divertissement</div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ab dicta esse sequi explicabo dolores, qui nulla nisi commodi nobis enim voluptatem, voluptas numquam eaque veniam rem temporibus, illo alias aliquid assumenda ratione sed blanditiis similique vero? Dicta, consectetur natus? Repudiandae porro cupiditate labore minus praesentium rerum est voluptate facere!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam modi culpa rem nemo natus ducimus corrupti expedita, aliquam perferendis, voluptatibus id nobis amet cupiditate ipsum. Aperiam sit asperiores adipisci fugit veniam repudiandae. Architecto dignissimos tempore aliquam quas officia fugiat rem error eveniet. Suscipit eius perspiciatis iste. Amet neque dolor quaerat velit asperiores mollitia beatae est possimus et officiis, doloribus delectus voluptate odit voluptas nihil rerum obcaecati suscipit ratione ipsa voluptates ea odio nobis nesciunt ullam! Nihil reiciendis laborum, optio rerum tempore possimus porro qui repellendus veniam animi laboriosam, asperiores neque, quo fugit. Quis culpa animi exercitationem, repellat qui aut sit tempora cupiditate excepturi reprehenderit quod ratione voluptatem quibusdam beatae earum porro! Non odio porro quidem incidunt fugiat pariatur nemo eum voluptas dolore corrupti, illum commodi aperiam delectus eius corporis! Facilis ab error mollitia ratione accusantium reiciendis incidunt veniam labore, voluptatum sit recusandae corporis accusamus obcaecati nostrum veritatis numquam tenetur qui?</p>
         </article>
         <aside class="card bg-primary">
           <h2>Faire Un Don</h2>
           <p>Chaque mois une association au hasard est sélectionnée, cette semaine faites un don à : <b>Médecins de monde</b>.</p>
           <a href="https://www.paypal.com/paypalme/elliotmoreau19" class='btn btn-dak btn-block'>Faire Un Don</a>
+        </aside>
+        <aside id="categories" class="card">
+          <h2>Commentaires</h2>
+          <ul class="list">
+
+          </ul>
         </aside>
       </div>
     </div>
@@ -65,9 +78,9 @@
       <div>
         <h3>Liens</h3>
         <ul class = 'list'>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">A Propos</a></li>
-          <li><a href="#">Contacter</a></li>
+          <li><a href="index.php">Accueil</a></li>
+          <li><a href="about.php">A Propos</a></li>
+          <li><a href="contact.php">Contacter</a></li>
         </ul>
       </div>
       <div>

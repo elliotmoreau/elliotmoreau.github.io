@@ -1,3 +1,16 @@
+<?php 
+
+
+
+?>
+<style>
+
+#showcase:before{
+  background: url('<?php echo "" ?>') no-repeat center center/cover;
+}
+
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,32 +18,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="../CSS/mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+  <script src="https://kit.fontawesome.com/18fe5b398f.js" async></script>
 
   <title>La Gazette Tulliste | L'info prés de chez vous</title>
 </head>
 <body>
   <nav id="main-nav">
     <div class="container">
-      <img src="img/logo.png" alt="NewsMedia" class="logo">
+      <img src="../img/logo.png" alt="NewsMedia" class="logo">
       <div class = 'social'>
-        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="feed/all.xml" target = 'blank'><i class="fa-solid fa-square-rss fa-2x"></i></a>
+        <div class="none">
         <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
         <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+        <a href="https://youtube.com/" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
       </div>
       <ul>
-        <li><a href="index.html" class="current">Acceuil</a></li>
-        <li><a href="about.html" >A propos</a></li>
-        <li><a href="contact.html" >Contacter</a></li>
+        <li><a href="../index.php" >Acceuil</a></li>
+        <li><a href="#" class="current">Interviews</a></li>
+        <li><a href="../contact.php" >Contacter</a></li>
       </ul>
     </div>
   </nav>
+<style>
 
+
+
+</style>
   <header id = 'showcase'>
     <div class="container">
       <div class="showcase-container">
@@ -43,7 +62,7 @@
           </div>
           <h1> Article de cette semaine</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deserunt, at laborum accusamus veniam reprehenderit deleniti reiciendis vel animi ipsum obcaecati ex nesciunt ipsa, voluptatibus provident, quas doloribus molestias. Saepe.</p>
-          <a href="article.html" class="btn btn-primary">Lire l'article</a>
+          <a href="article.php" class="btn btn-primary">Lire l'article</a>
         </div>
       </div>
     </div>
@@ -54,13 +73,13 @@
       <h2>Articles Précédents</h2>
       <div class="articles-container">
         <article class="card">
-          <img src="img/articles/ent1.jpg" alt="photo">
+          <img src="../img/articles/ent1.jpg" alt="photo">
           <div>
-            <div class="category category-ent">
+            <div class="category category-divertissement">
               Divertissement
             </div>
             <h3>
-              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+              <a href="../article.html">Lorem ipsum dolor sit amet.</a>
             </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
           </div>
@@ -71,18 +90,18 @@
             Sport
           </div>
           <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            <a href="../article.html">Lorem ipsum dolor sit amet.</a>
           </h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
         </article>
         
         <article class="card">     
-          <img src="img/articles/tech1.jpg" alt="photo">
+          <img src="../img/articles/tech1.jpg" alt="photo">
           <div class="category category-tech">
             Technologie
           </div>
           <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            <a href="../article.html">Lorem ipsum dolor sit amet.</a>
           </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
         </article>
@@ -92,19 +111,19 @@
             Sport
           </div>
           <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            <a href="../article.html">Lorem ipsum dolor sit amet.</a>
           </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
-          <img src="img/articles/sports1.jpg" alt="photo">
+          <img src="../img/articles/sports1.jpg" alt="photo">
         </article>
 
         <article class="card">     
-          <img src="img/articles/tech2.jpg" alt="photo">
+          <img src="../img/articles/tech2.jpg" alt="photo">
           <div class="category category-politic">
             Politique
           </div>
           <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
+            <a href="../article.html">Lorem ipsum dolor sit amet.</a>
           </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum expedita quam quibusdam ipsum nemo maiores. Cum ipsa amet quaerat sunt.</p>
           </article>
@@ -114,7 +133,7 @@
               Sport
             </div>
             <h3>
-              <a href="article.html">Lorem ipsum dolor sit amet.</a>
+              <a href="../article.html">Lorem ipsum dolor sit amet.</a>
             </h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium numquam illum ipsa corporis nemo beatae odio exercitationem vel, sit porro?</p>
           </article>
@@ -125,11 +144,11 @@
                 Actualités
               </div>
               <h3>
-                <a href="article.html">Lorem ipsum dolor sit amet.</a>
+                <a href="../article.html">Lorem ipsum dolor sit amet.</a>
               </h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere harum dicta dolor molestias amet eos! Doloribus molestiae cum accusamus?</p>
             </div>
-            <img src="img/articles/ent2.jpg" alt="photo">
+            <img src="../img/articles/ent2.jpg" alt="photo">
           </article>
       </div>
     </div>
@@ -138,7 +157,7 @@
   <footer id = 'main-footer' class = 'py-2'>
     <div class="container footer-container">
       <div>
-        <img src="img/logo-gray-background.png" alt="logo">
+        <img src="../img/logo-gray-background.png" alt="logo">
         <p>Bienvenue sur LaGazetteTulliste le magazine gratuit de votre ville.</p>
       </div>
       <div>
@@ -152,9 +171,9 @@
       <div>
         <h3>Liens</h3>
         <ul class = 'list'>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">A Propos</a></li>
-          <li><a href="#">Contacter</a></li>
+          <li><a href="../">Accueil</a></li>
+          <li><a href="../about.php">A Propos</a></li>
+          <li><a href="contact.php">Contacter</a></li>
         </ul>
       </div>
       <div>
@@ -171,3 +190,5 @@
   </footer>
 </body>
 </html>
+
+

@@ -24,9 +24,9 @@
         <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
       </div>
       <ul>
-        <li><a href="index.html" >Acceuil</a></li>
-        <li><a href="about.html" >A propos</a></li>
-        <li><a href="contact.html" >Contacter</a></li>
+        <li><a href="index.php" >Acceuil</a></li>
+        <li><a href="about.php" >A propos</a></li>
+        <li><a href="contact.php" >Contacter</a></li>
       </ul>
     </div>
   </nav>
@@ -78,9 +78,9 @@
       <div>
         <h3>Liens</h3>
         <ul class = 'list'>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">A Propos</a></li>
-          <li><a href="#">Contacter</a></li>
+          <li><a href="index.php">Accueil</a></li>
+          <li><a href="about.php">A Propos</a></li>
+          <li><a href="contact.php">Contacter</a></li>
         </ul>
       </div>
       <div>
